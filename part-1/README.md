@@ -2,6 +2,10 @@
 
 Este é um projeto Next.js que implementa uma landing page de uma agência de marketing digital.
 
+## Deploy
+
+O projeto está disponível em: [https://teste-tecnico-asimov-academy-fronte.vercel.app](https://teste-tecnico-asimov-academy-fronte.vercel.app)
+
 ## Como rodar o projeto
 
 ```bash

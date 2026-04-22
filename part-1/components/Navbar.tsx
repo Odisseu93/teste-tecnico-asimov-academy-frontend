@@ -27,7 +27,7 @@ export default function Navbar() {
 
 	return (
 		<nav className='fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-dark/10'>
-			<div className='section-padding py-[30px] flex items-center justify-between'>
+			<div className='px-[71px] py-[30px] flex items-center justify-between'>
 				{/* Logo */}
 				<Link href='/' className='relative w-[160px] xl:w-[220px] h-[36px] shrink-0'>
 					<Image src='/images/logo.png' alt='Positivus' fill className='object-contain' priority />

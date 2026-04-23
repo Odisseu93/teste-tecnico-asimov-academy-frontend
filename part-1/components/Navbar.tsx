@@ -27,7 +27,7 @@ export default function Navbar() {
 
 	return (
 		<nav className='fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-dark/10'>
-			<div className='px-[71px] py-[30px] flex items-center justify-between'>
+			<div className='px-5 lg:px-[71px] py-[30px] flex items-center justify-between'>
 				{/* Logo */}
 				<Link href='/' className='relative w-[160px] xl:w-[220px] h-[36px] shrink-0'>
 					<Image src='/images/logo.png' alt='Positivus' fill className='object-contain' priority />
@@ -38,7 +38,10 @@ export default function Navbar() {
 					<ul className='flex items-center gap-6 xl:gap-10'>
 						{navLinks.map((link) => (
 							<li key={link.name}>
-								<Link href={link.href} className='text-body font-medium hover:text-lime transition-colors whitespace-nowrap'>
+								<Link
+									href={link.href}
+									className='text-body font-medium hover:text-lime transition-colors whitespace-nowrap'
+								>
 									{link.name}
 								</Link>
 							</li>

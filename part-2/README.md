@@ -39,7 +39,7 @@ Ver o que vou aprender
 
 ## Deploy
 
-O projeto está disponível em: [link do deploy quando disponivel]()
+O projeto está disponível em: [https://teste-tecnico-asimov-academy-fronte-omega.vercel.app](https://teste-tecnico-asimov-academy-fronte-omega.vercel.app)
 
 ## Como rodar o projeto
 

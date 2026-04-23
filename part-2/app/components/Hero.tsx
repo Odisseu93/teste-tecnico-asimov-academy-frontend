@@ -26,7 +26,7 @@ export default function HeroSection() {
   return (
     <section
       aria-label="Hero"
-      className="relative flex min-h-svh flex-col items-center justify-center overflow-hidden bg-bg px-6 py-24 md:px-16"
+      className="relative flex min-h-svh flex-col items-center justify-center overflow-hidden bg-bg px-6 py-14 md:px-16"
     >
       {/* Ambient radial glow — CSS arbitrary value, no image asset */}
       <div
